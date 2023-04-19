@@ -5,7 +5,6 @@ export const event = {
     name: Events.InteractionCreate,
 }
 
-
 export const action = async(interaction) =>{
     if(!interaction.isChatInputCommand()) return
     const appStrore = useAppStore()
